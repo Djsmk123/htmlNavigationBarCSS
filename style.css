@@ -1,0 +1,90 @@
+*
+{
+  margin: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  font-family:serif;
+}
+h1{
+  position:absolute;
+  font-size: 12px;
+}
+body
+{ display:flex;
+  justify-content: center;
+  min-height: 100vh;
+  border-radius: 30px;
+  background-color: WHITE;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+nav{
+  padding: relative;
+  display:flex;
+  background-color: BLACK;
+  max-height:12vh;
+  min-width: 40%;
+  border-radius: 20px;
+  border-color: WHITE;
+  justify-content: center;
+}
+nav a
+{
+position:relative;
+margin: 0 10px;
+bottom: -25%;
+font-size:100%;
+color:WHITE;
+font-weight:100;
+text-decoration: none;
+}
+nav a:hover{
+    color: RED;
+}
+nav #marker
+{
+  position:absolute;
+  height:2px;
+  left: 0;
+  width:0%;
+  top:10%;
+  background:  #F8E1F4;
+  transition:0.5s;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 500px) {
+
+  nav a
+  {
+  position:relative;
+  margin: 0 10px;
+  font-size:100%;
+  color:WHITE;
+  font-weight:100;
+  text-decoration: none;
+  }
+  nav{
+    display:flex;
+    background-color: BLACK;
+    padding:10px 0px 0px 0px;
+    max-height:10vh;
+    border-radius: 20px;
+    border-color: WHITE;
+    justify-content: center;
+  }
+  nav #marker
+  {
+    position:absolute;
+    height:2px;
+    left: 0;
+    width:0%;
+      top:8%;
+      background:  #F8E1F4;
+      transition:0.5s;
+      border-radius: 4px;
+  }
+}
